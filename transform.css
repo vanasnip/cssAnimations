@@ -61,3 +61,23 @@ body {
 .rotate .box02:hover {
   transform: rotate(360deg);
 }
+/*=-=========================*/
+
+.translate .box {
+
+}
+
+.translate .box00 {
+  background-color: lime;
+  transition: transform 2s ease-in, background-color 2s;
+
+}
+
+.translate .box00:hover {
+  background-color: orange;
+  transform: translateX(324px) rotate(360deg);
+}
+
+.translate .box01:hover {
+  transform: translate(0, -40px) ;
+}

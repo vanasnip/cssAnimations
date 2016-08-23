@@ -1,0 +1,14 @@
+
+body {
+  background-color: #fff;
+}
+.rider {
+  position: absolute;
+  left: 15px;
+  bottom: 50px;
+  transition: transform 2s cubic-bezier(.16,.32,.64,-0.06);
+}
+
+.rider:hover {
+  transform: translateX(1700px);
+}
